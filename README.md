@@ -5,7 +5,8 @@
 <p align="left">
   <img align="right" alt="Technical RTL GIF" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3JtYXlmaGxoMjV1a3dsZjF1ZWcwaGd1NnZ5aGN5Y2FpN3RkcjJhcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/970Sr8vpwEbXG/giphy.gif" width="280" />
 </p>
-
+🎯 Actively seeking RTL/VLSI Design Internships – Ready to contribute!
+<br></br>
 I'm <strong>Jeevanandh R</strong>, an aspiring <strong>RTL Design Engineer</strong> with a vision to design reliable, efficient, and scalable digital logic systems. I thrive in the low-level digital world, translating functional ideas into real hardware through <strong>Verilog/SystemVerilog</strong>.
 
 🔍 My core passion lies in:
