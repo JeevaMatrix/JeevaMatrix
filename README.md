@@ -24,10 +24,7 @@ I'm <strong>Jeevanandh R</strong>, an aspiring <strong>RTL Design Engineer</stro
 * Pipelined designs with hazard mitigation
 * UART + FIFO and communication controller Designs
 
-![RTL](https://img.shields.io/badge/Digital_Logic-Fundamentals-0f62fe?style=flat-square\&logo=ibm\&logoColor=white)
-![HDL](https://img.shields.io/badge/Verilog/SystemVerilog-RTL_Design-orange?style=flat-square\&logo=verilog)
-![Testbench](https://img.shields.io/badge/Testbench-Driven_Validation-success?style=flat-square)
-![RTL Debug](https://img.shields.io/badge/Waveform_Analysis-GTKWave-blueviolet?style=flat-square)
+<img src="https://img.shields.io/badge/Digital_Logic-Fundamentals-0f62fe?style=flat-square&logo=ibm&logoColor=white" alt="RTL" /><img src="https://img.shields.io/badge/Verilog/SystemVerilog-RTL_Design-orange?style=flat-square&logo=verilog" alt="HDL" /><img src="https://img.shields.io/badge/Testbench-Driven_Validation-success?style=flat-square" alt="Testbench" /><img src="https://img.shields.io/badge/Waveform_Analysis-GTKWave-blueviolet?style=flat-square" alt="RTL Debug" />
 
 > 🚀 "Designing logic that ticks at the heart of tomorrow’s tech."
 
@@ -51,9 +48,7 @@ I'm <strong>Jeevanandh R</strong>, an aspiring <strong>RTL Design Engineer</stro
 
 ### Tools & Technologies
 
-![Verilog](https://img.shields.io/badge/-Verilog-000?style=for-the-badge\&logo=verilog\&logoColor=white)
-![GTKWave](https://img.shields.io/badge/-GTKWave-000?style=for-the-badge\&logo=gnu\&logoColor=orange)
-![ModelSim](https://img.shields.io/badge/-ModelSim-000?style=for-the-badge\&logo=intel\&logoColor=blue)
+<img src="https://img.shields.io/badge/-Verilog-000?style=for-the-badge&logo=verilog&logoColor=white" alt="Verilog" /><img src="https://img.shields.io/badge/-GTKWave-000?style=for-the-badge&logo=gnu&logoColor=orange" alt="GTKWave" /><img src="https://img.shields.io/badge/-ModelSim-000?style=for-the-badge&logo=intel&logoColor=blue" alt="ModelSim" />
 
 ---
 
@@ -68,9 +63,7 @@ I'm <strong>Jeevanandh R</strong>, an aspiring <strong>RTL Design Engineer</stro
 
 ### Tools
 
-![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge\&logo=arduino\&logoColor=white)
-![PlatformIO](https://img.shields.io/badge/-PlatformIO-000000?style=for-the-badge\&logo=platformio\&logoColor=orange)
-![ESP32](https://img.shields.io/badge/-ESP32-000?style=for-the-badge\&logo=espressif\&logoColor=red)
+<img src="https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" /><img src="https://img.shields.io/badge/-PlatformIO-000000?style=for-the-badge&logo=platformio&logoColor=orange" alt="PlatformIO" /><img src="https://img.shields.io/badge/-ESP32-000?style=for-the-badge&logo=espressif&logoColor=red" alt="ESP32" />
 
 ---
 
@@ -89,23 +82,20 @@ I'm <strong>Jeevanandh R</strong>, an aspiring <strong>RTL Design Engineer</stro
 
 ### Tools
 
-![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge\&logo=react\&logoColor=black)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-4EA94B?style=for-the-badge\&logo=mongodb\&logoColor=white)
-![Razorpay](https://img.shields.io/badge/-Razorpay-02042B?style=for-the-badge\&logo=razorpay\&logoColor=00C5FF)
+<img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" /><img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" /><img src="https://img.shields.io/badge/-MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" /><img src="https://img.shields.io/badge/-Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=00C5FF" alt="Razorpay" />
 
 ---
 
 ## 📊 Skill Distribution
 
-![Skills Pie Chart](https://quickchart.io/chart?c=%7B%22type%22%3A%22pie%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22VLSI%2FRTL%22%2C%22Embedded%22%2C%22Web%20Dev%22%5D%2C%22datasets%22%3A%5B%7B%22data%22%3A%5B70%2C20%2C10%5D%2C%22backgroundColor%22%3A%5B%22%23ff7675%22%2C%22%2374b9ff%22%2C%22%2355efc4%22%5D%7D%5D%7D%7D)
+<img src="https://quickchart.io/chart?c=%7B%22type%22%3A%22pie%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22VLSI%2FRTL%22%2C%22Embedded%22%2C%22Web%20Dev%22%5D%2C%22datasets%22%3A%5B%7B%22data%22%3A%5B70%2C20%2C10%5D%2C%22backgroundColor%22%3A%5B%22%23ff7675%22%2C%22%2374b9ff%22%2C%22%2355efc4%22%5D%7D%5D%7D%7D" alt="Skills Pie Chart" width="700"/>
 
 ---
 
 ## 🔗 Let's Connect
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/jeevanandhr/)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/jeeva-matrix)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/JeevaMatrix)
 
 ---
 
