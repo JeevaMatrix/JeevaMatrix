@@ -8,7 +8,7 @@
 
 <br/><br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jeevanandhr)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jeevanandhr/)
 [![Gmail](https://img.shields.io/badge/Email-Hire%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jeevanandh510@gmail.com)
 [![Resume](https://img.shields.io/badge/Resume-Download%20PDF-00D4FF?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://drive.google.com/file/d/1bVbQK60cJrhqG4bVwNaTJrVcys5PjVTZ/view?usp=drive_link)
 
@@ -111,7 +111,7 @@ A complete **System-on-Chip** integrating a custom RISC-V core, AXI4-Lite interc
 
 **Key highlights:** Custom RISC-V as AXI Master · AXI4-Lite compliant interconnect · AXI-APB protocol bridge · Peripheral block (GPIO / Timer / UART) · Fully verified in simulation
 
-[![View Repo](https://img.shields.io/badge/View%20Repo-mini__soc-00D4FF?style=flat-square&logo=github)](https://github.com/JeevaMatrix/mini_soc)
+[![View Repo](https://img.shields.io/badge/View%20Repo-mini__soc-00D4FF?style=flat-square&logo=github)](https://github.com/JeevaMatrix/riscv-axi-soc)
 
 ---
 
@@ -131,7 +131,7 @@ A **5-stage pipelined RISC-V processor** implementing the full RV32I base intege
 - **Load-use stall** detection and insertion
 - **Branch flush** on misprediction
 
-[![View Repo](https://img.shields.io/badge/View%20Repo-pipelined__riscv-6E40C9?style=flat-square&logo=github)](https://github.com/JeevaMatrix/pipelined_riscv_core)
+[![View Repo](https://img.shields.io/badge/View%20Repo-pipelined__riscv-6E40C9?style=flat-square&logo=github)](https://github.com/JeevaMatrix/pipelined_cpu)
 
 ---
 
@@ -139,7 +139,7 @@ A **5-stage pipelined RISC-V processor** implementing the full RV32I base intege
 
 A clean **single-cycle RV32I** implementation — ALU, register file, instruction memory, data memory, decode logic and control unit — the bedrock before the pipeline was added.
 
-[![View Repo](https://img.shields.io/badge/View%20Repo-single__cycle__riscv-FF6B35?style=flat-square&logo=github)](https://github.com/JeevaMatrix/single_cycle_riscv)
+[![View Repo](https://img.shields.io/badge/View%20Repo-single__cycle__riscv-FF6B35?style=flat-square&logo=github)](https://github.com/JeevaMatrix/single_cycle_riscv_core)
 
 ---
 
@@ -148,9 +148,9 @@ A clean **single-cycle RV32I** implementation — ALU, register file, instructio
 | Protocol | Description | Link |
 |----------|-------------|------|
 | **AXI4-Lite** | Full Master + Slave with handshake (AWVALID/WVALID/BREADY) | [![Repo](https://img.shields.io/badge/Repo-00D4FF?style=flat-square&logo=github)](https://github.com/JeevaMatrix/axi4_lite) |
-| **APB Master/Slave** | APB controller with peripheral interface and address decode | [![Repo](https://img.shields.io/badge/Repo-6E40C9?style=flat-square&logo=github)](https://github.com/JeevaMatrix/apb_master_slave) |
-| **SPI** | Configurable SPI controller (CPOL/CPHA modes, shift register) | [![Repo](https://img.shields.io/badge/Repo-FF6B35?style=flat-square&logo=github)](https://github.com/JeevaMatrix/spi_protocol) |
-| **UART** | Full-duplex UART Tx/Rx with programmable baud rate generator | [![Repo](https://img.shields.io/badge/Repo-0078D7?style=flat-square&logo=github)](https://github.com/JeevaMatrix/uart) |
+| **APB Master/Slave** | APB controller with peripheral interface and address decode | [![Repo](https://img.shields.io/badge/Repo-6E40C9?style=flat-square&logo=github)](https://github.com/JeevaMatrix/APB_master_slave) |
+| **SPI** | Configurable SPI controller (CPOL/CPHA modes, shift register) | [![Repo](https://img.shields.io/badge/Repo-FF6B35?style=flat-square&logo=github)](https://github.com/JeevaMatrix/SPI) |
+| **UART** | Full-duplex UART Tx/Rx with programmable baud rate generator | [![Repo](https://img.shields.io/badge/Repo-0078D7?style=flat-square&logo=github)](https://github.com/JeevaMatrix/uart_controller) |
 
 ---
 
@@ -166,23 +166,7 @@ Signed **Radix-2 Booth Multiplier** in RTL — efficient partial product generat
 
 Programmable **hardware timer** peripheral with interrupt generation, acknowledge, and clear logic — designed to plug directly into an APB peripheral subsystem.
 
-[![View Repo](https://img.shields.io/badge/View%20Repo-timer__interrupt-FFA000?style=flat-square&logo=github)](https://github.com/JeevaMatrix/timer_interrupt)
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=JeevaMatrix&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=6E40C9&text_color=ffffff&rank_icon=github" />
-&nbsp;&nbsp;
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JeevaMatrix&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=ffffff&langs_count=6" />
-
-<br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=JeevaMatrix&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d4ff&ring=6E40C9&fire=FF6B35&currStreakLabel=00d4ff" />
-
-</div>
+[![View Repo](https://img.shields.io/badge/View%20Repo-timer__interrupt-FFA000?style=flat-square&logo=github)](https://github.com/JeevaMatrix/Timer-Interrupt)
 
 ---
 
