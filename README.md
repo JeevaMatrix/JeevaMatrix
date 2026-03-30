@@ -1,132 +1,252 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=250&section=header&text=Jeevanandh%20R%20%F0%9F%94%AB%20RTL%20Design%20Engineer&fontSize=40&fontAlign=50&fontColor=ffffff&desc=Digital%20Design%20%7C%20RISC-V%20%7C%20AXI%20%7C%20SystemVerilog&descAlign=50&descSize=18)
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0a2a4a,100:00d4ff&height=210&section=header&text=Jeevanandh%20R&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=RTL%20Design%20Engineer%20%7C%20VLSI%20%7C%20RISC-V%20%7C%20FPGA&descAlignY=60&descSize=19&descColor=00d4ff&animation=fadeIn" />
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2800&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&width=750&height=80&lines=Designing+silicon%2C+one+clock+cycle+at+a+time+%E2%9A%A1;RISC-V+Cores+%7C+AXI4+%7C+APB+%7C+SPI+%7C+UART+%7C+FPGA;Actively+seeking+VLSI+%2F+RTL+Design+Internships+%F0%9F%9A%80" alt="Typing SVG" />
+</a>
+
+<br/><br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jeevanandhr)
+[![Gmail](https://img.shields.io/badge/Email-Hire%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jeevanandh510@gmail.com)
+[![Resume](https://img.shields.io/badge/Resume-Download%20PDF-00D4FF?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://drive.google.com/file/d/1bVbQK60cJrhqG4bVwNaTJrVcys5PjVTZ/view?usp=drive_link)
+
+</div>
 
 ---
 
-## 🧠 About Me
+## 🧬 Who Am I?
 
-<p align="left">
-  <img align="right" alt="RTL GIF" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3JtYXlmaGxoMjV1a3dsZjF1ZWcwaGd1NnZ5aGN5Y2FpN3RkcjJhcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/970Sr8vpwEbXG/giphy.gif" width="280" />
-</p>
+```verilog
+module jeevanandh_r (
+  input  wire  passion,
+  input  wire  curiosity,
+  output reg   production_ready_rtl,
+  output reg   silicon_dreams
+);
+  // Identity
+  localparam NAME     = "Jeevanandh R";
+  localparam COLLEGE  = "B.E. ECE — Final Year | Madurai, India";
+  localparam GOAL     = "RTL / VLSI Design Engineer";
+  localparam STATUS   = "Open to Internships & Full-Time Roles";
 
-🎯 **Aspiring RTL/VLSI Design Engineer** looking for opportunities to contribute to high-performance silicon design.
+  // Core Skills
+  localparam HDL      = {"Verilog", "SystemVerilog"};
+  localparam ARCH     = {"RISC-V Single-Cycle", "RISC-V 5-Stage Pipeline", "Mini SoC"};
+  localparam BUS      = {"AXI4-Lite", "APB Master/Slave"};
+  localparam PROTO    = {"SPI", "UART"};
+  localparam TOOLS    = {"Xilinx Vivado", "ModelSim"};
 
-I love building hardware that works at the cycle level — from **custom CPUs** to **bus protocols** to **embedded systems**.  
-My goal is to become a top-tier **RTL Engineer** with strong foundations in microarchitecture, verification, and SoC design.
+  always @(posedge passion) begin
+    production_ready_rtl <= design_rtl(curiosity, ARCH, BUS, PROTO);
+    silicon_dreams       <= synthesize_and_place_route(production_ready_rtl);
+  end
 
-### 🔍 Core Interests
-- RISC-V CPU architecture & microarchitecture  
-- Pipelined systems, hazards & forwarding  
-- AXI protocol implementation  
-- Clean, synthesizable RTL + strong testbenching  
-- Waveform-driven debugging & verification  
+endmodule
+```
 
-> 🚀 *“Turning ideas into logic… and logic into silicon.”*
-
----
-
-## 🏆 Major VLSI Projects
-
-### 🔥 **1. Single-Cycle RISC-V CPU (RV32I)**
-A clean, modular, and fully synthesizable single-cycle processor.
-
-- Complete RV32I subset  
-- Register File, ALU, Control Unit, Immediate Generator  
-- Instruction Fetch → Decode → Execute → Writeback in 1 cycle  
-- Great foundation for pipelining
-
-📁 Repository: **Single-Cycle-RISCV-CPU**
-
----
-
-### ⚡ **2. 5-Stage Pipelined RISC-V CPU**
-Industry-style pipeline architecture with all major units.
-
-- IF → ID → EX → MEM → WB  
-- Hazard Detection Unit  
-- Forwarding Unit  
-- Pipeline Registers (IF/ID, ID/EX, EX/MEM, MEM/WB)  
-- Fully tested with custom testbench + waveform analysis
-
-📁 Repository: **Pipelined-RISCV-CPU**
+> 🎯 I'm a **Final Year ECE student** obsessed with **RTL Design and Digital VLSI**.
+> I've built everything from a **RISC-V pipelined processor** to a **full Mini SoC with AXI4-APB interconnect** — all from scratch in Verilog.
+> I'm actively hunting for **VLSI / RTL Design internships and full-time roles** where I can turn logic into silicon.
 
 ---
 
-### 🔌 **3. AXI4-Lite Master–Slave System**
-A professional AXI design implemented from scratch.
+## ⚡ Technical Stack
 
-- AXI4-Lite Master module  
-- AXI4-Lite Slave module  
-- Read & Write channel handshake logic  
-- Address, data, and response flow fully respected  
-- Integrated master–slave testbench  
-- Great intro to industry bus protocols
+<div align="center">
 
-📁 Repository: **AXI4-Lite-Master-Slave**
+| Domain | Skills |
+|--------|--------|
+| **HDL Languages** | Verilog · SystemVerilog |
+| **CPU Architecture** | RISC-V ISA · Single-Cycle Core · 5-Stage Pipeline · Hazard Handling |
+| **Bus Protocols** | AXI4-Lite (Master + Slave) · APB (Master + Slave) |
+| **Serial Protocols** | SPI · UART |
+| **EDA Tools** | Xilinx Vivado · ModelSim |
+| **Design Concepts** | RTL Design · FSM · Booth Multiplication · Timer + Interrupt Logic |
+| **Other** | Python · C · Git |
 
----
+</div>
 
-## 💾 VLSI & RTL Design
+<br/>
 
-### Key Skills
-- ✅ Verilog, SystemVerilog  
-- ✅ Pipelining, Forwarding, Hazard Detection  
-- ✅ AXI4-Lite Protocol  
-- ✅ FSM Design, Microarchitecture Planning  
-- ✅ Testbench Development  
-- ✅ Timing & Synthesis Concepts  
+<div align="center">
 
-### 🛠️ Tools
-<img src="https://img.shields.io/badge/-Verilog-000?style=for-the-badge&logo=verilog&logoColor=white" />
-<img src="https://img.shields.io/badge/-ModelSim-000?style=for-the-badge&logo=intel&logoColor=00AEEF" />
-<img src="https://img.shields.io/badge/-GTKWave-000?style=for-the-badge&logo=gnu&logoColor=orange" />
-<img src="https://img.shields.io/badge/-Icarus_Verilog-000?style=for-the-badge&logo=icarus&logoColor=yellow" />
-<img src="https://img.shields.io/badge/-Vivado-000?style=for-the-badge&logo=xilinx&logoColor=E01F27" />
+![Verilog](https://img.shields.io/badge/Verilog-RTL%20Design-00D4FF?style=for-the-badge)
+![SystemVerilog](https://img.shields.io/badge/SystemVerilog-Testbench-6E40C9?style=for-the-badge)
+![RISC-V](https://img.shields.io/badge/RISC--V-Processor%20Design-FF6B35?style=for-the-badge)
+![AXI4](https://img.shields.io/badge/AXI4--Lite-Bus%20Protocol-0078D7?style=for-the-badge)
+![APB](https://img.shields.io/badge/APB-Peripheral%20Bus-00897B?style=for-the-badge)
+![Vivado](https://img.shields.io/badge/Xilinx%20Vivado-Synthesis-E01F27?style=for-the-badge)
 
+</div>
 
 ---
 
-## 🔧 Embedded Systems (Side Expertise)
+## 🚀 Featured Projects
 
-### Skills
-- ESP32 (Arduino / PlatformIO)  
-- UART, I2C, SPI Protocols  
-- Multi-sensor systems (PIR, DHT11, Photoresistor)  
-- OLED UI Systems (menus, EEPROM settings)  
-- Real-time event-driven applications  
-
-### Tools
-<img src="https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
-<img src="https://img.shields.io/badge/-PlatformIO-000?style=for-the-badge&logo=platformio&logoColor=orange" />
-<img src="https://img.shields.io/badge/-ESP32-000?style=for-the-badge&logo=espressif&logoColor=red" />
+> Every project below is handcrafted in Verilog/SystemVerilog — no HLS, no IP black boxes.
 
 ---
 
-## 🌐 Web Development (Secondary Strength)
+### 🏆 Mini SoC — RISC-V + AXI4-Lite + APB
 
-### Skills
-- React.js + Tailwind  
-- Node.js + Express  
-- MongoDB & Mongoose  
-- Razorpay Subscriptions  
-- OTP Auth, Secure Token Storage  
+```
+┌──────────────────────────────────────────────────────────────┐
+│                       Mini SoC                               │
+│                                                              │
+│   ┌─────────────┐    AXI4-Lite     ┌──────────────────┐      │
+│   │  RISC-V     │ ──────────────►  │   AXI-APB Bridge │      │
+│   │  Core       │                  └────────┬─────────┘      │
+│   │  (Master)   │                           │ APB            │
+│   └─────────────┘              ┌────────────┼────────────┐   │
+│                                │            │            │   │
+│                             ┌──▼──┐     ┌──▼──┐     ┌──▼─┐   │
+│                             │GPIO │     │Timer│     │UART│   │
+│                             └─────┘     └─────┘     └────┘   │
+└──────────────────────────────────────────────────────────────┘
+```
 
-### Projects
-- **Hostel/PG Management SaaS**  
-- **MoodTunes – Emotion-based Music App**
+A complete **System-on-Chip** integrating a custom RISC-V core, AXI4-Lite interconnect, AXI-to-APB bridge, and peripheral subsystem. This project demonstrates **full-stack digital design** — from the processor to the bus fabric to the peripherals.
 
----
+**Key highlights:** Custom RISC-V as AXI Master · AXI4-Lite compliant interconnect · AXI-APB protocol bridge · Peripheral block (GPIO / Timer / UART) · Fully verified in simulation
 
-## 📊 Skill Distribution
-
-<img src="https://quickchart.io/chart?c=%7B%22type%22%3A%22pie%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22VLSI%2FRTL%22%2C%22Embedded%22%2C%22Web%20Dev%22%5D%2C%22datasets%22%3A%5B%7B%22data%22%3A%5B75%2C15%2C10%5D%2C%22backgroundColor%22%3A%5B%22%23ff7675%22%2C%22%2374b9ff%22%2C%22%2355efc4%22%5D%7D%5D%7D%7D" width="700"/>
-
----
-
-## 🔗 Let's Connect
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeevanandhr/)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JeevaMatrix)
+[![View Repo](https://img.shields.io/badge/View%20Repo-mini__soc-00D4FF?style=flat-square&logo=github)](https://github.com/JeevaMatrix/mini_soc)
 
 ---
 
-> ⭐ *Open to RTL/VLSI internships & collaboration. Let's build silicon together!*
+### ⚙️ Pipelined RISC-V Core (RV32I)
+
+```
+  ┌────┐   ┌────┐   ┌────┐   ┌─────┐   ┌────┐
+  │ IF │──►│ ID │──►│ EX │──►│ MEM │──►│ WB │
+  └────┘   └──┬─┘   └──┬─┘   └──┬──┘   └────┘
+              │         │        │
+              └────── Hazard Unit ──────────────
+                   (Forwarding + Stall + Flush)
+```
+
+A **5-stage pipelined RISC-V processor** implementing the full RV32I base integer ISA, complete with:
+- **Data forwarding** (EX-EX and MEM-EX paths)
+- **Load-use stall** detection and insertion
+- **Branch flush** on misprediction
+
+[![View Repo](https://img.shields.io/badge/View%20Repo-pipelined__riscv-6E40C9?style=flat-square&logo=github)](https://github.com/JeevaMatrix/pipelined_riscv_core)
+
+---
+
+### 🔁 Single-Cycle RISC-V Core
+
+A clean **single-cycle RV32I** implementation — ALU, register file, instruction memory, data memory, decode logic and control unit — the bedrock before the pipeline was added.
+
+[![View Repo](https://img.shields.io/badge/View%20Repo-single__cycle__riscv-FF6B35?style=flat-square&logo=github)](https://github.com/JeevaMatrix/single_cycle_riscv)
+
+---
+
+### 🔌 Protocol IP Cores
+
+| Protocol | Description | Link |
+|----------|-------------|------|
+| **AXI4-Lite** | Full Master + Slave with handshake (AWVALID/WVALID/BREADY) | [![Repo](https://img.shields.io/badge/Repo-00D4FF?style=flat-square&logo=github)](https://github.com/JeevaMatrix/axi4_lite) |
+| **APB Master/Slave** | APB controller with peripheral interface and address decode | [![Repo](https://img.shields.io/badge/Repo-6E40C9?style=flat-square&logo=github)](https://github.com/JeevaMatrix/apb_master_slave) |
+| **SPI** | Configurable SPI controller (CPOL/CPHA modes, shift register) | [![Repo](https://img.shields.io/badge/Repo-FF6B35?style=flat-square&logo=github)](https://github.com/JeevaMatrix/spi_protocol) |
+| **UART** | Full-duplex UART Tx/Rx with programmable baud rate generator | [![Repo](https://img.shields.io/badge/Repo-0078D7?style=flat-square&logo=github)](https://github.com/JeevaMatrix/uart) |
+
+---
+
+### 🧮 Booth Multiplier
+
+Signed **Radix-2 Booth Multiplier** in RTL — efficient partial product generation, addition tree, and sign-extended output. Correct for all signed edge cases.
+
+[![View Repo](https://img.shields.io/badge/View%20Repo-booth__multiplier-00897B?style=flat-square&logo=github)](https://github.com/JeevaMatrix/booth_multiplier)
+
+---
+
+### ⏱️ Timer with Interrupt Controller
+
+Programmable **hardware timer** peripheral with interrupt generation, acknowledge, and clear logic — designed to plug directly into an APB peripheral subsystem.
+
+[![View Repo](https://img.shields.io/badge/View%20Repo-timer__interrupt-FFA000?style=flat-square&logo=github)](https://github.com/JeevaMatrix/timer_interrupt)
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=JeevaMatrix&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=6E40C9&text_color=ffffff&rank_icon=github" />
+&nbsp;&nbsp;
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JeevaMatrix&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=ffffff&langs_count=6" />
+
+<br/><br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=JeevaMatrix&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d4ff&ring=6E40C9&fire=FF6B35&currStreakLabel=00d4ff" />
+
+</div>
+
+---
+
+## 🗺️ Design Roadmap
+
+```
+2024 ──────────────────────────────────────────────────────────► 2025+
+  │                                                                 │
+  ├─ ✅  Single-Cycle RISC-V Core (RV32I)                          │
+  ├─ ✅  5-Stage Pipelined RISC-V (Hazard + Forwarding)            │
+  ├─ ✅  AXI4-Lite Master / Slave IP                               │
+  ├─ ✅  APB Master / Slave IP                                      │
+  ├─ ✅  SPI & UART Protocol Controllers                           │
+  ├─ ✅  Booth Multiplier + Timer/Interrupt                         │
+  ├─ ✅  Mini SoC (RISC-V + AXI4 + APB peripherals)               │
+  │                                                                 │
+  ├─ 🔄  UVM Testbenches for Protocol IPs                          │
+  ├─ 🔄  Timing Constraints & STA (Vivado)                         │
+  ├─ 📌  FPGA Implementation & Utilisation Report                  │
+  └─ 📌  Formal Verification (SVA Assertions)                      │
+                                                                    ▼
+                                             RTL Design Engineer @ Semiconductor Co.
+```
+
+---
+
+## 💼 Open to Opportunities
+
+<div align="center">
+
+### 🚨 Available Now — Internship & Full-Time
+
+| | |
+|---|---|
+| 🎓 **Degree** | B.E. Electronics & Communication Engineering — Final Year |
+| 📍 **Location** | Madurai, Tamil Nadu · Open to Relocate Anywhere in India |
+| 🎯 **Target Role** | RTL Design Engineer · VLSI Design Intern · Digital Design Engineer |
+| 🏢 **Dream Companies** | Qualcomm · MediaTek · Intel · Samsung Semiconductor · NVIDIA · Synopsys · Cadence · Ericsson |
+| ⏰ **Availability** | Immediate |
+
+</div>
+
+<br/>
+
+<div align="center">
+
+**If you're hiring someone who can design a RISC-V SoC from a blank file — I'm your engineer.**
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jeevanandhr/)
+&nbsp;
+[![Email](https://img.shields.io/badge/Send%20Me%20an%20Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jeevanandh510@gmail.com)
+&nbsp;
+[![Resume](https://img.shields.io/badge/Download%20My%20Resume-00D4FF?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://drive.google.com/file/d/1bVbQK60cJrhqG4bVwNaTJrVcys5PjVTZ/view?usp=drive_link)
+
+</div>
+
+---
+
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,50:0a2a4a,100:0d1117&height=130&section=footer&text=Let%27s%20Build%20Silicon%20Together&fontSize=22&fontColor=ffffff&fontAlignY=65&animation=fadeIn" />
+
+*"First, solve the problem. Then, write the RTL."*
+
+</div>
